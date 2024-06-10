@@ -1,0 +1,19 @@
+### Python ###
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller
+*.manifest
+*.spec
+output/
+
+# Environments
+.env
+.venv
+env/
+venv/*
+ENV/
+
+# SH-Project
+*.dll
