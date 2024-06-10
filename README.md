@@ -1,6 +1,9 @@
-# Прочитай! | Pls Read!
-### Тут в репозиторие нету __Библиотек__,  пожалуйста установи их сам.
-#### Спасибо!
+# SH-Project
+## Инструмент для простого инжекта DLL в майнкрафт
 
-### There are no __Libraries__ in the repository, please install them yourself.
-#### Thank you!
+
+# EN:
+## SH-Project
+### Tool for a simple DLL inject in minecraft
+
+![1718009922328](image/README/1718009922328.png)
