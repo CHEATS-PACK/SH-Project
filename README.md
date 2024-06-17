@@ -4,6 +4,6 @@
 
 # EN:
 ## SH-Project
-### Tool for a simple DLL inject in minecraft
+### GHOST-Client for game Minecraft
 
 ![1718009922328](image/README/1718009922328.png)
