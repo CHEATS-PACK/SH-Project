@@ -16,7 +16,7 @@ def show_warning_massage():
                                      "SH-Project", 0x1000)
 
 
-CLIENT_ID = '1249427246440251537'  # Замените 'your_client_id_here' на ваш ID приложения из Discord Developer Portal
+CLIENT_ID = 'your_client_id_here'  # Замените 'your_client_id_here' на ваш ID приложения из Discord Developer Portal
 
 def create_default_config():
     config_path = "C:/SH-Prod/config.txt"  # Путь к файлу конфигурации
@@ -163,7 +163,7 @@ def animate_title(title):
             time.sleep(0.1)
 
 
-response = requests.get("https://cheats-pack.github.io/repohidezz/shproject/version.txt")
+response = requests.get("") #тут поставьте ссылку на ваш version.txt
 if response.status_code == 200:
     version = response.text.strip()
 else:
@@ -184,8 +184,7 @@ def check_java_process():
         exit(0)
 
 def download_vec_dll():
-    # скачиваем vec.dll с ссылки cheats-pack.ru/vec.dll
-    url = "https://cheats-pack.github.io/SH-Project/dll/vec.dll"
+    url = "" #тут поставьте ссылку на ваш vec.dll
     file_path = "C:\\Windows\\vec.dll"
     if not os.path.exists(file_path):
         response = requests.get(url, stream=True)
@@ -233,7 +232,7 @@ def download_dlldefault():
         print(f"Файл {dll_name} уже скачен")
     else:
         # скачиваем DLL-файл
-        url = f"https://cheats-pack.github.io/SH-Project/dll/{dll_name}"
+        url = f"https://example.com/dll/{dll_name}" # Замените на свой домен на скачивание systemly.exe
         response = requests.get(url)
         if response.status_code == 200:
             with open(dll_path, "wb") as f:
